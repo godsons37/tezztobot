@@ -1,0 +1,127 @@
+@media screen and (max-width: 698px) {
+    .itemcard{
+        max-width: 45%;
+        min-width: 48%;
+    }
+}
+@media screen and (min-width: 699px) {
+    .itemcard{
+        max-width: 21%;
+        min-width: 24%;
+    }
+}
+
+body{
+    background: #b6e3f6;
+}
+.wrapper{
+    display:flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+}
+.bot{
+    position: absolute;
+    /*border: 1px solid #ddd;*/
+    /*border-radius: 4px;*/
+    /*margin: -5px 20px 0px 0px;*/
+    /*margin-right: 200px;*/
+    width: 30px;
+    /*box-sizing: border-box;*/
+    order: 999;
+    /*margin-left: auto;*/
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.bot_text{
+    font-size: 13px;
+    box-sizing: border-box;
+    min-width: 45%;
+}
+
+.head{
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 0px 0px 15px 15px;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
+    display: flex;
+    flex-wrap: nowrap;
+    height: 60px;
+    width: 100%;
+}
+
+.admin{
+    margin: 0px 20px 0px 0px;
+}
+
+.head_two{
+    position: absoute;
+}
+
+.itemcard:hover {
+    box-shadow: 0 0 5px 4px rgba(85, 139, 169, 0.44);
+}
+
+.img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 0px -23px 0px 0px;
+    max-width: 100%;
+}
+
+.butt{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.butt2{
+    color: #aaafb7;
+    border-color: #aaafb7;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.itemcard2{
+    background: rgba(228, 232, 238, 0.96);
+    opacity: .8;
+}
+
+.card-header{
+    background: rgba(170, 175, 183, 0.23);
+}
+.my-0,
+.card-title{
+    text-align: center;
+}
+
+h2{
+    background: rgba(161, 220, 245, 0.71);
+    width: 100%;
+    text-align: center;
+    margin-right: 25%;
+    margin-left: 25%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 4px rgba(85, 139, 169, 0.44);
+    margin-bottom: 40px;
+
+}
+
+.form3 {
+    width: 60%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    resize: none;
+}
+
