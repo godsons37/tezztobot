@@ -20,7 +20,7 @@
 @yield('php')
 <div class="wrapper">
 
-    <h2> iTemsGoogleDocsParsing </h2>
+    <h2>iTemsGoogleDocsParsing</h2>
 
     @foreach($data as $dat)
         @if(($dat->availability) > 0)
