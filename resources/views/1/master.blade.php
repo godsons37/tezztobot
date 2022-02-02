@@ -20,7 +20,7 @@
 @yield('php')
 <div class="wrapper">
 
-    <h2>iTemsGoogleDocsParsing</h2>
+    <h2> iTemsGoogleDocsParsing </h2>
 
     @foreach($data as $dat)
         @if(($dat->availability) > 0)
@@ -32,11 +32,11 @@
             <img src="{{ $dat->img }}" class="img" alt="">
             <ul class="list-unstyled mt-3 mb-4">
                 <li>{{ $dat->desc }}</li>
-                <li><small class="text-muted">кількість: </small>{{ $dat->qty }}</li>
+                <li><small class="text-muted">availible: </small>{{ $dat->qty }}</li>
                 <li><small class="text-muted">на складі: </small>{{ $dat->availability }}</li>
             </ul>
             <h1 class="card-title pricing-card-title">{{ $dat->price }} <small class="text-muted">₴</small></h1>
-            <button type="button" class="btn btn-lg btn-block btn-outline-primary butt">купити</button>
+            <button type="button" class="btn btn-lg btn-block btn-outline-primary butt">buy now</button>
         </div>
     </div>
 
